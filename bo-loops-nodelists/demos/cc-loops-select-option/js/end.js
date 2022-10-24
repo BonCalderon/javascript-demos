@@ -1,8 +1,8 @@
 function End(){
 
 document.querySelector('.items').addEventListener('change', evt => {
-    let numOfItems = evt.target.value;
-    //let numOfItems = Number(evt.target.value);
+    let numOfItems = evt.target.value; // this let numOfItems = the value of what ever targeted option value from our select in html
+    // let numOfItems = Number(evt.target.value);
     let count;
     let list = `<ul>`;
 
@@ -26,7 +26,7 @@ document.querySelector('.items').addEventListener('change', evt => {
 
     list += `</ul>`;
 
-    document.querySelector('.todo-list').innerHTML = list;
+    document.querySelector('.todo-list').innerHTML = list; // this puts the html list inside the div with class todo-list 
 });
 
 }

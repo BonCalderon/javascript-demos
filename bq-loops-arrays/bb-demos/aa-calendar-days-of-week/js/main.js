@@ -1,5 +1,5 @@
 export function demo(){
-	let days = [
+	let days = [ //each one of the array is called elements? 
 		'Sun',
 		'Mon',
 		'Tue',
@@ -10,8 +10,8 @@ export function demo(){
 	];
 
 	let cal = `<table border="1"><tr>`;
-	for (let idx = 0; idx < days.length; idx++) {
-		cal += `<th>${days[idx]}</th>`;
+	for (let idx = 0; idx < days.length; idx++) { //days.lenght is the lenght of array
+		cal += `<th>${days[idx]}</th>`; //days[idx] displays the string days 
 	}
 	cal += `</tr></table>`;
 
